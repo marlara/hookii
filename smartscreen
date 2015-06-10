@@ -1,0 +1,14 @@
+@media screen and (min-width: 1020px) {
+ #menu-item-5441 { display: none; } /* nascondi scorciatoia second */
+}
+
+@media screen and (min-width: 880px) {
+ #menu-item-5442 { display: none; } /* nascondi scorciatoia tertiary */
+}
+
+@media screen and (max-width : 620px) {
+ #arpw-widget-2 { display: none; } /* questo nasconde "articoli casuali" su prod */
+ #calendar-2 { display: none; } /* questo nasconde il "per data" su prod */
+ #oggi_widget-3 { display: none; } /* questo toglie "oggi" su prod*/
+ #text-7 { display: none; } /*questo toglie "original hookies" su prod */
+}
